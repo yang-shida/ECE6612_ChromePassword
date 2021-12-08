@@ -1,15 +1,1 @@
 RFBBUEkBAAAA0Iyd3wEV0RGMegDAT8KX6wEAAADBEGFOwGbxR59+jpAOUnrEAAAAAAIAAAAAABBmAAAAAQAAIAAAAIVtnICEjwL0zMxdH4hJfsob90Xd0MpURLD+YfZ/JPKyAAAAAA6AAAAAAgAAIAAAAHSjfpvVYq4TCFktxASZHqe7L3vSP2pBScg14vGGCshsMAAAAGjacV7V8HvF1SsEwnT3CeHYQ+KpTQ4f8vXlHFz61rZCwf0xq5Ia6Ycz1sdQPpVpBkAAAADHlq9+0tHaipf+wUDokgmDSIqDebga9ykzpqbRIUileopV5fRiz0XJLx9wmefGQwi4saZK1DnH9Ee2YZaFciI2
-
-
-Chrome encryption method: https://www.alertra.com/blog/decrypting-browser-passwords-other-secrets
-C++ DPAPI usage: D:\Download\chromium-master\chrome\browser\signin\signin_util_win.cc
-SQLite output to CSV: https://stackoverflow.com/questions/6076984/sqlite-how-do-i-save-the-result-of-a-query-as-a-csv-file
-
-sqlite> .mode csv
-sqlite> .output cred.csv
-sqlite> select username_value,password_value from logins;
-sqlite> .output stdout
-
-Encrypted internal key: C:\Users\<your_username>\AppData\Local\Google\Chrome\User Data\Local State
-	"os_crypt":{"encrypted_key"
-Login password database: C:\Users\<your_username>\AppData\Local\Google\Chrome\User Data\Default\Login Data

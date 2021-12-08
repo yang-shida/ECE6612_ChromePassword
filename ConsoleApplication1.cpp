@@ -1,4 +1,7 @@
-// https://www.alertra.com/blog/decrypting-browser-passwords-other-secrets
+/*
+    Chrome encryption method: https://www.alertra.com/blog/decrypting-browser-passwords-other-secrets
+    SQLite output to CSV: https://stackoverflow.com/questions/6076984/sqlite-how-do-i-save-the-result-of-a-query-as-a-csv-file
+*/
 
 #include <iostream>
 #include "windows.h"
